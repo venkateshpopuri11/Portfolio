@@ -8,117 +8,109 @@
 </head>
 <body class="bg-gray-50 text-gray-900">
 
-  <!-- Header Section with Side Photo -->
-  <header class="p-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg">
-    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
-      
-      <!-- Profile Photo -->
-      <img src="my-photo.jpg" alt="Venkatesh Popuri" 
-           class="rounded-full w-40 h-40 shadow-lg border-4 border-white">
+  <!-- Header -->
+  <header class="text-center p-6">
+    <h1 class="text-4xl font-bold">Venkatesh Popuri</h1>
+    <p class="text-lg text-gray-600">
+      Software Engineer | Java Developer | Cloud & CI/CD Enthusiast
+    </p>
 
-      <!-- Header Content -->
-      <div class="text-center md:text-left">
-        <h1 class="text-5xl font-bold mb-2">Venkatesh Popuri</h1>
-        <p class="text-xl opacity-90">Software Engineer | Java Developer | Cloud & CI/CD Enthusiast</p>
-
-        <!-- Contact Links -->
-        <div class="flex justify-center md:justify-start gap-6 mt-4">
-          <a href="mailto:vpopuri11@gmail.com" class="hover:underline">Email</a>
-          <a href="https://github.com/YOUR-GITHUB" target="_blank" class="hover:underline">GitHub</a>
-          <a href="https://www.linkedin.com/in/venkatesh-p-b628901ba" target="_blank" class="hover:underline">LinkedIn</a>
-          <a href="https://wa.me/13308086558" target="_blank" class="hover:underline">WhatsApp</a>
-        </div>
-
-        <!-- Resume Button -->
-        <div class="mt-6">
-          <a href="Venkatesh_Popuri_Resume.pdf" target="_blank"
-             class="bg-white text-blue-700 px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-gray-200">
-            View My Resume
-          </a>
-        </div>
-      </div>
+    <!-- Contact Links -->
+    <div class="flex justify-center gap-4 mt-4">
+      <a href="mailto:vpopuri11@gmail.com" class="text-blue-600 underline">Email</a>
+      <a href="https://github.com/YOUR-GITHUB" class="text-blue-600 underline" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/venkatesh-p-b628901ba" class="text-blue-600 underline" target="_blank">LinkedIn</a>
+      <a href="https://wa.me/13308086558" class="text-green-600 underline" target="_blank">WhatsApp</a>
     </div>
+
+    <!-- Resume Button -->
+    <div class="mt-4">
+  <a href="Venkatesh_Popuri_Resume.pdf" target="_blank"
+     class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md">
+    View My Resume
+  </a>
+</div>
   </header>
 
-  <!-- About Section -->
-  <section class="max-w-2xl mx-auto p-6 text-center">
+  <!-- About Me -->
+  <section class="max-w-2xl mx-auto p-6">
     <h2 class="text-2xl font-semibold mb-2">About Me</h2>
     <p>
       Software Engineer with extensive experience designing and deploying Java-based enterprise solutions using Spring Boot and REST APIs.
-      Skilled in building scalable microservices, integrating AWS cloud services, and automating CI/CD pipelines. Passionate about improving system performance and delivering high-quality software.
+      Skilled in building scalable microservices, integrating cloud services (AWS), and automating CI/CD pipelines.
+      Passionate about improving system performance and building reliable backend services.
     </p>
   </section>
 
-  <!-- Experience Section -->
+  <!-- Experience -->
   <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Experience</h2>
+    <h2 class="text-2xl font-semibold mb-4">Experience</h2>
 
-    <div class="mb-4 bg-white shadow-md p-4 rounded-lg hover:shadow-xl transition">
+    <div class="mb-4 bg-white shadow p-4 rounded-lg">
       <h3 class="font-semibold text-lg">Software Engineer – Wells Fargo (2024 – Present)</h3>
-      <ul class="list-disc list-inside text-gray-700">
+      <ul class="list-disc list-inside">
         <li>Developed Java and React solutions for enterprise-scale platforms.</li>
-        <li>Engineered Spring Boot microservices reducing latency by 30%.</li>
+        <li>Engineered Spring Boot microservices and APIs, reducing latency by 30%.</li>
         <li>Integrated AWS cloud services to improve scalability and reliability.</li>
-        <li>Maintained 85%+ test coverage with JUnit, Playwright, Selenium.</li>
+        <li>Maintained high code quality through JUnit, Playwright, and Selenium tests (85%+ coverage).</li>
       </ul>
     </div>
 
-    <div class="mb-4 bg-white shadow-md p-4 rounded-lg hover:shadow-xl transition">
+    <div class="mb-4 bg-white shadow p-4 rounded-lg">
       <h3 class="font-semibold text-lg">Systems Engineer – Cognizant (2021 – 2023)</h3>
-      <ul class="list-disc list-inside text-gray-700">
-        <li>Developed backend services using Java, Python, Oracle, PostgreSQL.</li>
-        <li>Built REST APIs and React/Angular SPAs, reducing page load time by 25%.</li>
-        <li>Optimized CI/CD pipelines with Git, GitHub, Jenkins for faster deployments.</li>
-        <li>Automated monitoring workflows reducing production issues by 25%.</li>
+      <ul class="list-disc list-inside">
+        <li>Developed backend services using Java and Python, integrated Oracle/PostgreSQL databases.</li>
+        <li>Built REST APIs and React/Angular SPAs, reducing page load times by 25%.</li>
+        <li>Optimized CI/CD pipelines with Git, GitHub, Jenkins (30% faster deployments).</li>
+        <li>Automated monitoring/debugging workflows, reducing production issues by 25%.</li>
       </ul>
     </div>
 
-    <div class="bg-white shadow-md p-4 rounded-lg hover:shadow-xl transition">
+    <div class="bg-white shadow p-4 rounded-lg">
       <h3 class="font-semibold text-lg">Systems Engineer Trainee – Cognizant (2020)</h3>
-      <ul class="list-disc list-inside text-gray-700">
-        <li>Completed training in Core Java, SQL/PLSQL, and system design.</li>
-        <li>Reduced defect backlog by 15% through backend bug fixes.</li>
-        <li>Improved analytics performance by writing optimized SQL queries.</li>
+      <ul class="list-disc list-inside">
+        <li>Completed intensive training in Core Java, SQL/PLSQL, and system design.</li>
+        <li>Reduced defect backlog by 15% through debugging backend Java modules.</li>
+        <li>Designed optimized SQL queries to improve analytics performance.</li>
       </ul>
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Projects -->
   <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Projects</h2>
+    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
 
     <div class="space-y-4">
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
+      <div class="p-4 bg-white shadow rounded-lg">
         <h3 class="font-semibold">AWS-Based Log Analyzer</h3>
-        <p>Python app deployed on AWS Lambda to process logs and generate QuickSight dashboards.</p>
+        <p>Python application deployed on AWS Lambda to process logs and generate analytics dashboards with QuickSight.</p>
       </div>
 
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
+      <div class="p-4 bg-white shadow rounded-lg">
         <h3 class="font-semibold">CI/CD Portfolio</h3>
-        <p>Containerized a Java Spring Boot app with Docker, deployed on Kubernetes with Jenkins pipeline, hosted on AWS EC2.</p>
+        <p>Containerized a Java Spring Boot app with Docker, deployed on Kubernetes with Jenkins CI/CD pipeline, hosted on AWS EC2.</p>
       </div>
 
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
+      <div class="p-4 bg-white shadow rounded-lg">
         <h3 class="font-semibold">Smart Expense Tracker</h3>
-        <p>Flask-based web app to track expenses, store data in MySQL, and visualize with Chart.js.</p>
+        <p>Flask-based web app that tracks expenses, integrates with MySQL, and visualizes insights with Chart.js.</p>
       </div>
     </div>
   </section>
 
-  <!-- Education Section -->
+  <!-- Education -->
   <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Education</h2>
-    <p class="text-center">Master of Science in Computer Science – Youngstown State University (2023 – 2025)</p>
+    <h2 class="text-2xl font-semibold mb-4">Education</h2>
+    <p>Master of Science in Computer Science – Youngstown State University (2023 – 2025)</p>
   </section>
 
   <!-- Footer -->
-  <footer class="text-center p-6 bg-gray-100">
+  <footer class="text-center p-6">
     <p>© 2025 Venkatesh Popuri — <a href="mailto:vpopuri11@gmail.com" class="text-blue-600 underline">Get in Touch</a></p>
   </footer>
 
 </body>
 </html>
-
 
 
 
