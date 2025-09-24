@@ -8,36 +8,42 @@
 </head>
 <body class="bg-gray-50 text-gray-900">
 
-  <!-- Header Section -->
-  <header class="text-center p-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg">
-    <!-- Profile Photo -->
-    <img src="my-photo.jpg" alt="Venkatesh Popuri" 
-         class="mx-auto rounded-full w-32 h-32 shadow-lg mb-4 border-4 border-white">
+  <!-- Header Section with Side Photo -->
+  <header class="p-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
+      
+      <!-- Profile Photo -->
+      <img src="my-photo.jpg" alt="Venkatesh Popuri" 
+           class="rounded-full w-40 h-40 shadow-lg border-4 border-white">
 
-    <h1 class="text-5xl font-bold mb-2">Venkatesh Popuri</h1>
-    <p class="text-xl opacity-90">Software Engineer | Java Developer | Cloud & CI/CD Enthusiast</p>
+      <!-- Header Content -->
+      <div class="text-center md:text-left">
+        <h1 class="text-5xl font-bold mb-2">Venkatesh Popuri</h1>
+        <p class="text-xl opacity-90">Software Engineer | Java Developer | Cloud & CI/CD Enthusiast</p>
 
-    <!-- Contact Links -->
-    <div class="flex justify-center gap-6 mt-6">
-      <a href="mailto:vpopuri11@gmail.com" class="hover:underline">Email</a>
-      <a href="https://github.com/YOUR-GITHUB" target="_blank" class="hover:underline">GitHub</a>
-      <a href="https://www.linkedin.com/in/venkatesh-p-b628901ba" target="_blank" class="hover:underline">LinkedIn</a>
-      <a href="https://wa.me/13308086558" target="_blank" class="hover:underline">WhatsApp</a>
-    </div>
+        <!-- Contact Links -->
+        <div class="flex justify-center md:justify-start gap-6 mt-4">
+          <a href="mailto:vpopuri11@gmail.com" class="hover:underline">Email</a>
+          <a href="https://github.com/YOUR-GITHUB" target="_blank" class="hover:underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/venkatesh-p-b628901ba" target="_blank" class="hover:underline">LinkedIn</a>
+          <a href="https://wa.me/13308086558" target="_blank" class="hover:underline">WhatsApp</a>
+        </div>
 
-    <!-- Resume Button -->
-    <div class="mt-6">
-      <a href="Venkatesh_Popuri_Resume.pdf" target="_blank"
-         class="bg-white text-blue-700 px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-gray-200">
-        👀 View My Resume
-      </a>
+        <!-- Resume Button -->
+        <div class="mt-6">
+          <a href="Venkatesh_Popuri_Resume.pdf" target="_blank"
+             class="bg-white text-blue-700 px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-gray-200">
+            👀 View My Resume
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section class="max-w-2xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-2 text-center">About Me</h2>
-    <p class="text-center">
+  <section class="max-w-2xl mx-auto p-6 text-center">
+    <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+    <p>
       Software Engineer with extensive experience designing and deploying Java-based enterprise solutions using Spring Boot and REST APIs.
       Skilled in building scalable microservices, integrating AWS cloud services, and automating CI/CD pipelines. Passionate about improving system performance and delivering high-quality software.
     </p>
@@ -72,46 +78,8 @@
       <ul class="list-disc list-inside text-gray-700">
         <li>Completed training in Core Java, SQL/PLSQL, and system design.</li>
         <li>Reduced defect backlog by 15% through backend bug fixes.</li>
-        <li>Improved analytics performance by writing optimized SQL queries.</li>
-      </ul>
-    </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Projects</h2>
 
-    <div class="space-y-4">
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
-        <h3 class="font-semibold">AWS-Based Log Analyzer</h3>
-        <p>Python app deployed on AWS Lambda to process logs and generate QuickSight dashboards.</p>
-      </div>
-
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
-        <h3 class="font-semibold">CI/CD Portfolio</h3>
-        <p>Containerized a Java Spring Boot app with Docker, deployed on Kubernetes with Jenkins pipeline, hosted on AWS EC2.</p>
-      </div>
-
-      <div class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
-        <h3 class="font-semibold">Smart Expense Tracker</h3>
-        <p>Flask-based web app to track expenses, store data in MySQL, and visualize with Chart.js.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Education</h2>
-    <p class="text-center">Master of Science in Computer Science – Youngstown State University (2023 – 2025)</p>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center p-6 bg-gray-100">
-    <p>© 2025 Venkatesh Popuri — <a href="mailto:vpopuri11@gmail.com" class="text-blue-600 underline">Get in Touch</a></p>
-  </footer>
-
-</body>
-</html>
 
 
 
